@@ -1,0 +1,12 @@
+.main {
+    padding: 10px;
+}
+
+h1.display-1 {
+    text-align: center;
+}
+
+a.def:hover, a.def:visited {
+    color: #3B71CA;
+    text-decoration: none;
+}

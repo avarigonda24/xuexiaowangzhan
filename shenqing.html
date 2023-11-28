@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的学校：沙伦高中</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">介绍我的学校</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" data-toggle="tooltip" title="environment (huán jìng)">博客</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="ke.html">课</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="xuesheng.html">学生</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="laoshi.html">老师</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="kewaihuodong.html" data-toggle="tooltip" title="extracurriculars (kè wài huó dòng)">课外活动</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="shenqing.html" data-toggle="tooltip" title="applying to college (dà xué shēn qǐng)">大学申请</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="boke.html" data-toggle="tooltip" title="school blog (xuéxiào bókè)">学校博客</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="main">
+      十一年级的时候，学生们需要想一想他们高中以后要做什么。 十一年级春天的时，学生会跟他们的<a data-toggle="tooltip" title="school counselor (xuexiao fǔdǎo yuán)">学校辅导员</a>谈他们要不要上大学。 
+如果你的孩子想上比较好的大学，他们需要：
+<ul>
+  <li>努力学习，上比较难的课</li>
+  <li>参加课外活动。比如：<a data-toggle="tooltip" title = "clubs (jùlèbù)">俱乐部</a>，运动，还是实习。 </li>
+</ul>
+
+    </div>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+</body>
+</html>
