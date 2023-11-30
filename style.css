@@ -6,7 +6,14 @@ h1.display-1 {
     text-align: center;
 }
 
-a.def:hover, a.def:visited {
-    color: #3B71CA;
-    text-decoration: none;
+a, a:hover, a:visited {
+    text-decoration: underline !important;
+}
+
+h1 a, h1 a:hover, h1 a:visited {
+    color: black !important;
+}
+
+img {
+    width: 100%;
 }
